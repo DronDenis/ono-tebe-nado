@@ -103,6 +103,8 @@ body h1 h2 h3 h4 h5 h6 p {
 }
 
 main {
+    margin: 0;
+    padding: 0;
     background-color: #f5f5f5;
 }
 
@@ -142,16 +144,20 @@ main {
 }
 
 .ono {
+    margin: 0;
+    padding: 0;
     letter-spacing: 30px;
 }
 
 .letter {
+    margin: 0;
+    padding: 0;
     letter-spacing: 60px;
 }
 
 .tebe-position {
     text-align: center;
-    margin: 20px 0 20px 0;
+    margin: 20px 0 0px 0;
     padding: 0;
 }
 
