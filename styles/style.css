@@ -4,6 +4,8 @@
 
 body {
     width: auto;
+    margin: 0;
+    padding: 0;
 }
 
 .header-main {
@@ -23,6 +25,8 @@ body {
 }
 
 .main {
+    margin: 0;
+    padding: 0;
     font-size: 18px;
     letter-spacing: 0;
     font-family: Raleway, sans-serif;
@@ -58,14 +62,16 @@ body {
 }
 
 .logo-header {
-    margin-left: 0;
-    margin-right: 10.76%;
-    width: 148px;
-    height: 105px;
+    margin: 0;
+    padding-left: 0;
+    padding-right: 10.76%;
+    width: 8.97%;
+    height: auto;
     justify-self: center;
 }
 
 .contacts {
+    margin: 0;
     object-position: right;
     padding-top: 5px;
     padding-bottom: 7px;
@@ -95,6 +101,7 @@ body {
 }
 
 .ono-tebe-nado-title {
+    margin: 0;
     font-family: Raleway, sans-serif;
     font-weight: bold;
     font-display: swap;
@@ -107,6 +114,7 @@ body {
 }
 
 .ono {
+    margin: 0;
     text-align: left;
     padding-bottom: 20px;
     line-height: 115%;
@@ -117,36 +125,43 @@ body {
 }
 
 .tebe {
+    margin: 0;
     text-align: center;
     padding-bottom: 20px;
     line-height: 100%;
 }
 
 .nado {
+    margin: 0;
     text-align: right;
     line-height: 100%;
 }
 
 .text-button-align {
+    margin: 0;
     display: flex;
     justify-content: space-between;
 
 }
 
 .title-description {
+    margin: 0;
     font-family: Raleway, sans-serif;
     font-weight: normal;
     font-display: swap;
+    text-transform: uppercase;
     font-size: 22px;
     line-height: 28px;
     letter-spacing: 0;
-    margin-left: 29.31%;
+    padding-left: 29.31%;
 }
 
 .title-botton {
+    margin: 0 3.47% 0 0;
     font-family: Raleway, sans-serif;
     font-weight: normal;
     font-display: swap;
+    text-transform: uppercase;
     font-size: 22px;
     letter-spacing: 0;
     color: #fff;
@@ -154,8 +169,6 @@ body {
     background: none;
     padding: 12px 32px 12px 32px;
     justify-self: end;
-    margin-right: 3.47%;
-    margin-left: 0;
 }
 
 .lots {
@@ -177,7 +190,6 @@ body {
 
 .lots-order {
     display: flex;
-    flex-flow: row;
     justify-content: space-between;
 }
 
@@ -210,6 +222,7 @@ body {
 
 .lot-film-text {
     margin: 0;
+    padding: 0;
     font-family: Raleway, sans-serif;
     font-weight: normal;
     font-display: swap;
@@ -225,7 +238,7 @@ body {
     justify-content: space-between;
     width: 29.86%;
     height: 450px;
-    margin: 0;
+    margin: 0 1.74% 0 1.74%;
     padding: 50px 2.78% 50px 2.78%;
     background-image: url(/images/card-lot-02.jpg);
     background-repeat: no-repeat;
@@ -248,6 +261,7 @@ body {
 
 .lot-book-text {
     margin: 0;
+    padding: 0;
     font-family: Raleway, sans-serif;
     font-weight: normal;
     font-display: swap;
@@ -317,7 +331,7 @@ body {
     width: 240px;
     height: 240px;
     margin: 180px 0 0 10.07%;
-    padding: 0 95px 0 95px;
+    padding: 0;
     background-color: #000;
     border-radius: 50%;
     display: flex;
@@ -338,7 +352,6 @@ body {
     width: 61.46%;
     margin-top: 281px;
     padding-right: 2.78%;
-    margin: 0;
 }
 
 .about-auction-title {
@@ -373,6 +386,8 @@ body {
 .footer {
     display: flex;
     justify-content: space-between;
+    margin: 0;
+    padding: 0 0 90px 0;
 }
 
 .footer-contacts {
@@ -390,10 +405,12 @@ body {
 }
 
 .main-footer {
+    margin: 0;
     text-decoration: none;
 }
 
 .list-footer {
+    text-align: center;
     list-style: none;
 
 }
