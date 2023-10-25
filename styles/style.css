@@ -18,8 +18,8 @@ body h1 h2 h3 h4 h5 h6 p {
 }
 
 .page-navigation {
-    padding-top: 43px;
-    padding-bottom: 43px;
+    margin: 0;
+    padding: 43px 0 43px 0;
     display: flex;
     flex-flow: row;
     justify-self: left;
@@ -63,9 +63,8 @@ body h1 h2 h3 h4 h5 h6 p {
 }
 
 .logo-header {
-    margin: 0;
-    padding-left: 0;
-    padding-right: 10.76%;
+    margin: 0 10.14% 0 0;
+    padding: 0;
     width: 8.97%;
     height: auto;
     justify-self: center;
@@ -74,11 +73,8 @@ body h1 h2 h3 h4 h5 h6 p {
 .contacts {
     margin: 0;
     padding: 0;
-    object-position: right;
     padding-top: 5px;
     padding-bottom: 7px;
-    display: flex;
-    flex-flow: column;
     font-family: Raleway, sans-serif;
     font-weight: normal;
     font-display: swap;
@@ -96,6 +92,8 @@ body h1 h2 h3 h4 h5 h6 p {
     margin: 0;
     padding: 0;
     font-style: normal;
+    display: flex;
+    flex-flow: column;
 
 }
 
@@ -131,15 +129,27 @@ main {
     flex-flow: column;
 }
 
+.ono-position {
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    line-height: 115%;
+}
+
 .ono {
     margin: 0;
     text-align: left;
     padding-bottom: 20px;
-    line-height: 115%;
 }
 
 .letter {
     letter-spacing: 60%;
+}
+
+.tebe-position {
+    text-align: center;
+    margin: 0;
+    padding: 0;
 }
 
 .tebe {
@@ -147,6 +157,12 @@ main {
     text-align: center;
     padding-bottom: 20px;
     line-height: 100%;
+}
+
+.nado-position {
+    text-align: right;
+    margin: 0;
+    padding: 0;
 }
 
 .nado {
@@ -172,6 +188,7 @@ main {
     line-height: 28px;
     letter-spacing: 0;
     padding-left: 29.31%;
+    word-spacing: 20px;
 }
 
 .title-botton {

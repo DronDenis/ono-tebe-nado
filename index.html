@@ -5,8 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Оно тебе надо — аукцион вещей, в которые никто не верил</title>
-    <link rel="globalsheet" href="/styles/global.css">
-    <link rel="fontssheet" href="/fonts/fonts.css">
+    <link rel="fontsheet" href="/fonts/fonts.css">
+    <link rel="stylesheet" href="/styles/global.css">
     <link rel="stylesheet" href="/styles/style.css">
     <link rel="icon" href="/images/logo-black.svg">
   </head>
@@ -36,14 +36,13 @@
       alt="логотип Оно тебе надо черным на белом фоне"
       class="logo-header">
 
-        <address class="contacts">
-          <p class="address">
-            <a href="tel:+99995555555">+9 999 555 5555</a></br>
-            <a href="mailto:info@sobaka.ge">info@sobaka.ge</a></br>
-            наб. Принсенграхт 263-265,</br>
-            Амстердам
-          </p>
-        </address>
+      <address class="contacts">
+        <p class="address">
+          <span><a href="tel:+99995555555">+9 999 555 5555</a></span>
+          <span><a href="mailto:info@sobaka.ge">info@sobaka.ge</a></span>            <span>наб. Принсенграхт 263-265,</span>
+          <span>Амстердам</span>
+        </p>
+      </address>
 
     </header>
 
@@ -52,15 +51,19 @@
       <section class="title-ono background-fill">
 
         <h1 class="ono-tebe-nado-title">
-          <span class="ono">
-            он<span class="letter">о</span>
-          </span>
-          <span class="tebe">
-            теб<span class="letter">е</span>
-          </span>
-          <span class="nado">
-            <span class="letter">н</span>адо
-          </span>
+          <div class="ono-position">
+            <span class="ono">он</span>
+            <span class="letter">о</span>
+          </div>
+
+          <div class="tebe-position">
+            <span class="tebe">теб</span>
+            <span class="letter">е</span>
+          </div>
+          <div class="nado-position">
+            <span class="letter">н</span>
+            <span class="nado">адо</span>
+          </div>
         </h1>
 
         <div class="text-button-align">
@@ -193,10 +196,10 @@
       <div class="footer-contacts">
         <address class="contacts">
           <p class="address">
-            <a href="tel:+99995555555">+9 999 555 5555</a></br>
-            <a href="mailto:info@sobaka.ge">info@sobaka.ge</a></br>
-            наб. Принсенграхт 263-265,</br>
-            Амстердам
+            <span><a href="tel:+99995555555">+9 999 555 5555</a></span>
+            <span><a href="mailto:info@sobaka.ge">info@sobaka.ge</a></span>
+            <span>наб. Принсенграхт 263-265,</span>
+            <span>Амстердам</span>
           </p>
         </address>
       </div>
