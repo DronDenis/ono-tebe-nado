@@ -58,14 +58,19 @@ body h1 h2 h3 h4 h5 h6 p {
 }
 
 .about-auction {
-    margin-left: 5px;
+    margin-left: 0 10.14% 0 0;
     text-decoration: underline;
+}
+
+.logo-link {
+    margin: 0;
+    padding: 0;
 }
 
 .logo-header {
     margin: 0 10.14% 0 0;
     padding: 0;
-    width: 8.97%;
+    width: 50%;
     height: auto;
     justify-self: center;
 }
@@ -137,11 +142,11 @@ main {
 }
 
 .ono {
-    letter-spacing: 30%;
+    letter-spacing: 30px;
 }
 
 .letter {
-    letter-spacing: 60%;
+    letter-spacing: 60px;
 }
 
 .tebe-position {
@@ -153,9 +158,8 @@ main {
 .tebe {
     margin: 0;
     text-align: center;
-    padding-bottom: 20px;
     line-height: 100%;
-    letter-spacing: 30%;
+    letter-spacing: 30px;
 
 }
 
@@ -166,7 +170,7 @@ main {
 }
 
 .nado {
-    letter-spacing: 30%;
+    letter-spacing: 30px;
     margin: 0;
     text-align: right;
     line-height: 100%;
@@ -233,7 +237,7 @@ main {
     display: flex;
     flex-flow: column;
     justify-content: space-between;
-    width: 29.86%;
+    width: 32%;
     height: 450px;
     margin: 0;
     padding: 50px 2.78% 50px 2.78%;
@@ -272,7 +276,7 @@ main {
     display: flex;
     flex-flow: column;
     justify-content: space-between;
-    width: 29.86%;
+    width: 32%;
     height: 450px;
     margin: 0;
     padding: 50px 2.78% 50px 2.78%;
@@ -311,7 +315,7 @@ main {
     display: flex;
     flex-flow: column;
     justify-content: space-between;
-    width: 29.86%;
+    width: 32%;
     height: 450px;
     margin: 0;
     padding: 50px 2.78% 50px 2.78%;
@@ -383,12 +387,14 @@ main {
     width: 148px;
     height: 114px;
     margin: 0;
+    padding: 0;
 }
 
 .about-auction-whole {
     width: 61.46%;
     margin-top: 281px;
     padding-right: 2.78%;
+    padding-left: 0;
     margin-left: 8.33%;
     margin-right: 0;
     margin-bottom: 0;
