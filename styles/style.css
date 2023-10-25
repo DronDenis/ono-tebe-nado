@@ -113,7 +113,7 @@ main {
     padding: 0;
     color: #fff;
     height: auto;
-    background-image: url(./images/cover.jpg);
+    background-image: url(/images/cover.jpg);
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -177,15 +177,21 @@ main {
 }
 
 .nado {
-    letter-spacing: 45px;
+    letter-spacing: 30px;
     margin: 0;
     padding: 0;
     text-align: right;
     line-height: 100%;
 }
 
+.some-space-after {
+    margin: 0;
+    padding: 0;
+    letter-spacing: 10px;
+}
+
 .no-space-after {
-    letter-spacing: 15px;
+    letter-spacing: 0;
 }
 
 .text-button-align {
@@ -253,7 +259,7 @@ main {
     height: 450px;
     margin: 0;
     padding: 50px 2.78% 50px 2.78%;
-    background-image: url(./images/card-lot-01.jpg);
+    background-image: url(/images/card-lot-01.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -292,7 +298,7 @@ main {
     height: 450px;
     margin: 0;
     padding: 50px 2.78% 50px 2.78%;
-    background-image: url(./images/card-lot-02.jpg);
+    background-image: url(/images/card-lot-02.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -331,7 +337,7 @@ main {
     height: 450px;
     margin: 0;
     padding: 50px 2.78% 50px 2.78%;
-    background-image: url(./images/card-lot-03.jpg);
+    background-image: url(/images/card-lot-03.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
