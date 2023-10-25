@@ -485,14 +485,14 @@ main {
 .images-footer {
     margin: 0;
     padding: 0 2.78% 0 0;
-    width: 16.67%;
+    width: 20%;
     display: flex;
     justify-content: space-between;
     align-items: baseline;
 }
 
 .image-footer {
-    width: 20%;
-    height: auto;
+    width: 48px;
+    height: 48px;
     padding-right: 0;
 }
