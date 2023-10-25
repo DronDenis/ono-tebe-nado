@@ -184,6 +184,10 @@ main {
     line-height: 100%;
 }
 
+.no-space-after {
+    letter-spacing: 0;
+}
+
 .text-button-align {
     margin: 0;
     display: flex;
@@ -442,12 +446,14 @@ main {
     background-color: #f5f5f5;
     display: flex;
     justify-content: space-between;
+    align-content: baseline;
     margin: 0;
     padding: 0 0 90px 0;
 }
 
 .footer-contacts {
-    padding-left: 2.78%;
+    margin: 0;
+    padding: 0 0 0 2.78%;
 }
 
 .page-navigation-footer {
@@ -458,24 +464,31 @@ main {
     letter-spacing: 0%;
     text-align: center;
     width: auto;
+    margin: 0;
+    padding: 0;
 }
 
 .main-footer {
     margin: 0;
+    padding: 0;
     text-decoration: none;
 }
 
 .list-footer {
+    margin: 0;
+    padding: 0;
     text-align: center;
     list-style: none;
 
 }
 
 .images-footer {
+    margin: 0;
+    padding: 0 2.78% 0 0;
     width: 16.67%;
     display: flex;
     justify-content: space-between;
-    padding-right: 2.78%;
+    align-items: baseline;
 }
 
 .image-footer {
