@@ -113,7 +113,7 @@ main {
     padding: 0;
     color: #fff;
     height: auto;
-    background-image: url(/images/cover.jpg);
+    background-image: url(./images/cover.jpg);
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -253,7 +253,7 @@ main {
     height: 450px;
     margin: 0;
     padding: 50px 2.78% 50px 2.78%;
-    background-image: url(/images/card-lot-01.jpg);
+    background-image: url(./images/card-lot-01.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -292,7 +292,7 @@ main {
     height: 450px;
     margin: 0;
     padding: 50px 2.78% 50px 2.78%;
-    background-image: url(/images/card-lot-02.jpg);
+    background-image: url(./images/card-lot-02.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -331,7 +331,7 @@ main {
     height: 450px;
     margin: 0;
     padding: 50px 2.78% 50px 2.78%;
-    background-image: url(/images/card-lot-03.jpg);
+    background-image: url(./images/card-lot-03.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
