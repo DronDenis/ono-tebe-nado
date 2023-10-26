@@ -5,64 +5,45 @@
 body h1 h2 h3 h4 h5 h6 p {
     margin: 0;
     padding: 0;
-    background-color: #f5f5f5;
 }
 
 .header-main {
-    background-color: #f5f5f5;
-    display: flex;
-    flex-flow: row;
+    display: grid;
+    grid-template-columns: 1fr min-content 1fr;
     justify-content: space-between;
-    padding: 92px 3.4% 80px 3.54%;
+    padding: 92px 50px 92px 50px;
     margin: 0;
+    align-content: center;
 }
 
-.page-navigation {
-    margin: 0;
+.list-flow-nav {
+    font-size: 18px;
+    letter-spacing: 0;
+    font-family: Raleway, sans-serif;
+    font-weight: normal;
+    font-display: swap;
+    display: flex;
     padding: 43px 0 43px 0;
-    display: flex;
     flex-flow: row;
-    justify-self: left;
-}
-
-.main {
-    margin: 0;
-    padding: 0;
-    font-size: 18px;
-    letter-spacing: 0;
-    font-family: Raleway, sans-serif;
-    font-weight: normal;
-    font-display: swap;
-}
-
-.list-flow {
-    font-size: 18px;
-    letter-spacing: 0;
-    font-family: Raleway, sans-serif;
-    font-weight: normal;
-    font-display: swap;
-    display: flex;
-    flex-flow: row;
-    row-gap: 13px;
-    margin: 0;
-    padding: 0;
+    gap: 13px;
     list-style-type: circle;
     list-style-position: inside;
-    padding-left: 13px;
 }
 
-.watch-lots {
-    margin-left: 5px;
-    margin-right: 13px;
-    text-decoration: underline;
+.nav-list-main {
+    list-style-type: none;
 }
 
-.about-auction {
-    margin-left: 0 10.14% 0 0;
-    text-decoration: underline;
+.contacts-underline {
+    text-decoration: none;
+    border-bottom: solid 1px currentColor;
 }
+
 
 .logo-link {
+    justify-self: center;
+    width: 148px;
+    height: auto;
     margin: 0;
     padding: 0;
 }
@@ -70,45 +51,36 @@ body h1 h2 h3 h4 h5 h6 p {
 .logo-header {
     margin: 0 10.14% 0 0;
     padding: 0;
-    width: 50%;
+    width: 95%;
     height: auto;
     justify-self: center;
 }
 
 .contacts {
+    justify-self: end;
     margin: 0;
     padding: 0;
     padding-top: 5px;
     padding-bottom: 7px;
-    font-family: Raleway, sans-serif;
+    max-width: 240px;
+}
+
+.address-font {
+    font-family: Raleway,sans-serif;
     font-weight: normal;
     font-display: swap;
     font-size: 18px;
     line-height: 24.3px;
     letter-spacing: 0;
-}
-
-.address {
-    font-family: Raleway, sans-serif;
-    font-weight: normal;
-    font-display: swap;
-    font-size: 18px;
-    line-height: 24.3px;
-    margin: 0;
-    padding: 0;
     font-style: normal;
-    display: flex;
-    flex-flow: column;
-
 }
 
 main {
     margin: 0;
     padding: 0;
-    background-color: #f5f5f5;
 }
 
-.title-ono {
+.main-title {
     margin: 0;
     padding: 0;
     color: #fff;
@@ -121,29 +93,29 @@ main {
 .background-fill {
     background-color: rgba(0, 0, 0, .6);
     background-blend-mode: multiply;
+    background-position: center;
 }
 
-.ono-tebe-nado-title {
+.main-title-words {
     margin: 0;
     font-family: Raleway, sans-serif;
     font-weight: bold;
     font-display: swap;
     font-size: 100px;
     text-transform: uppercase;
-    padding: 165px 3.47% 130px 3.47%;
+    padding: 165px 50px 130px 50px;
     display: flex;
     flex-flow: column;
 }
 
-.ono-position {
-    letter-spacing: 30%;
+.left-position {
     margin: 0;
     padding: 0;
     text-align: left;
     line-height: 115%;
 }
 
-.ono {
+.small-letter-spacing {
     margin: 0;
     padding: 0;
     letter-spacing: 30px;
@@ -155,33 +127,16 @@ main {
     letter-spacing: 60px;
 }
 
-.tebe-position {
+.center-position {
     text-align: center;
     margin: 0;
     padding: 10px 0 10px 0;
 }
 
-.tebe {
-    margin: 0;
-    padding: 0;
-    text-align: center;
-    line-height: 100%;
-    letter-spacing: 30px;
-
-}
-
-.nado-position {
+.right-position {
     text-align: right;
     margin: 0;
     padding: 0;
-}
-
-.nado {
-    letter-spacing: 30px;
-    margin: 0;
-    padding: 0;
-    text-align: right;
-    line-height: 100%;
 }
 
 .some-space-after {
@@ -203,6 +158,7 @@ main {
 
 .title-description {
     margin: 0;
+    justify-self: center;
     font-family: Raleway, sans-serif;
     font-weight: normal;
     font-display: swap;
@@ -211,7 +167,7 @@ main {
     line-height: 28px;
     letter-spacing: 0;
     padding-left: 29.31%;
-    word-spacing: 20px;
+    word-spacing: 18px;
 }
 
 .title-botton {
@@ -231,12 +187,12 @@ main {
 
 .lots {
     margin: 0;
-    padding: 180px 3.47% 0 3.47%;
+    padding: 180px 50px 0 50px;
 }
 
 .lots-title {
     margin: 0;
-    padding: 0 0 27px 2.78%;
+    padding: 0 0 27px 40px;
     font-family: Raleway, sans-serif;
     font-weight: bold;
     font-display: swap;
@@ -249,22 +205,27 @@ main {
 .lots-order {
     display: flex;
     justify-content: space-between;
+    gap: 25px;
 }
 
-.lot-film {
+.lot-decoration {
     display: flex;
     flex-flow: column;
     justify-content: space-between;
-    width: 32%;
-    height: 450px;
+    width: 430px;
+    min-height: 450px;
     margin: 0;
-    padding: 50px 2.78% 50px 2.78%;
+    padding: 50px 40px 50px 40px;
+
+}
+
+.lot-film {
     background-image: url(../images/card-lot-01.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-.lot-film-title {
+.lot-card-title {
     margin: 0;
     padding: 0;
     color: #fff;
@@ -278,7 +239,7 @@ main {
     text-decoration: underline;
 }
 
-.lot-film-text {
+.lot-card-text {
     margin: 0;
     padding: 0;
     font-family: Raleway, sans-serif;
@@ -291,105 +252,42 @@ main {
 }
 
 .lot-book {
-    display: flex;
-    flex-flow: column;
-    justify-content: space-between;
-    width: 32%;
-    height: 450px;
-    margin: 0;
-    padding: 50px 2.78% 50px 2.78%;
     background-image: url(../images/card-lot-02.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-.lot-book-title {
-    margin: 0;
-    padding: 0;
-    color: #fff;
-    font-family: Raleway, sans-serif;
-    font-weight: bold;
-    font-display: swap;
-    font-size: 22px;
-    letter-spacing: 0%;
-    line-height: 120%;
-    text-transform: uppercase;
-    text-decoration: underline;
-}
-
-.lot-book-text {
-    margin: 0;
-    padding: 0;
-    font-family: Raleway, sans-serif;
-    font-weight: normal;
-    font-display: swap;
-    font-size: 20px;
-    letter-spacing: 0%;
-    line-height: 120%;
-    color: #fff;
-}
-
 .lot-picture {
-    display: flex;
-    flex-flow: column;
-    justify-content: space-between;
-    width: 32%;
-    height: 450px;
-    margin: 0;
-    padding: 50px 2.78% 50px 2.78%;
     background-image: url(../images/card-lot-03.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-.lot-picture-title {
-    margin: 0;
-    padding: 0;
-    color: #fff;
-    font-family: Raleway, sans-serif;
-    font-weight: bold;
-    font-display: swap;
-    font-size: 22px;
-    letter-spacing: 0%;
-    line-height: 120%;
-    text-transform: uppercase;
-    text-decoration: underline;
-}
-
-.lot-picture-text {
-    margin: 0;
-    font-family: Raleway, sans-serif;
-    font-display: swap;
-    font-weight: normal;
-    font-size: 20px;
-    line-height: 120%;
-    letter-spacing: 0;
-    color: #fff;
-}
-
 .see-more {
     margin: 0;
-    padding: 30px 0 0 2.78%;
+    padding: 30px 0 0 40px;
     font-family: Raleway, sans-serif;
     font-weight: normal;
     font-display: swap;
     font-size: 20px;
     letter-spacing: 0%;
     text-decoration: underline;
+    display: inline-block;
 }
 
 .about {
-    display: flex;
-    flex-flow: row;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 25px;
     justify-content: left;
-    padding-bottom: 180px;
+    padding: 180px 50px 180px 50px;
     margin: 0;
 }
 
 .background-logo-about {
     width: 240px;
     height: 240px;
-    margin: 180px 0 0 10.07%;
+    margin: 0px 95px 0 95px;
     padding: 0;
     background-color: #000;
     border-radius: 50%;
@@ -409,14 +307,9 @@ main {
 }
 
 .about-auction-whole {
-    width: 61.46%;
-    margin-top: 281px;
-    padding-right: 2.78%;
-    padding-left: 0;
-    margin-left: 6.94%;
-    margin-right: 0;
-    margin-bottom: 0;
-    margin: 281px 0 0 8.33%
+    width: auto;
+    padding: 100px 0 0 0;
+    margin: 0;
 }
 
 .about-auction-title {
@@ -433,6 +326,7 @@ main {
 
 .about-auction-text {
     margin: 0;
+    padding: 0 0 1px 0;
     font-family: Raleway, sans-serif;
     font-weight: normal;
     font-display: swap;
@@ -440,26 +334,22 @@ main {
     letter-spacing: 0%;
     line-height: 120%;
     column-gap: 24px;
-}
-
-.text-about {
-    padding-top: 25px;
-    padding-bottom: 1px;
-    margin: 0;
+    display: flex;
+    flex-flow: column;
+    gap: 25px;
 }
 
 .footer {
-    background-color: #f5f5f5;
     display: flex;
     justify-content: space-between;
     align-content: baseline;
     margin: 0;
-    padding: 0 0 80px 0;
+    padding: 0 50px 90px 50px;
 }
 
 .footer-contacts {
     margin: 0;
-    padding: 0 0 0 2.78%;
+    padding: 0;
 }
 
 .page-navigation-footer {
@@ -472,6 +362,16 @@ main {
     width: auto;
     margin: 0;
     padding: 0;
+    list-style: none;
+}
+
+.no-underline {
+    text-decoration: none;
+}
+
+.footer-dot {
+    text-decoration: none;
+    border-bottom: solid 1px currentColor;
 }
 
 .main-footer {
@@ -489,10 +389,12 @@ main {
 }
 
 .images-footer {
-    margin: 0;
-    padding: 0 2.78% 0 0;
-    width: 20%;
     display: flex;
+    flex-flow: row;
+    gap: 48px;
+    margin: 0;
+    padding: 0;
+    width: auto;
     justify-content: space-between;
     align-items: baseline;
 }
@@ -500,5 +402,4 @@ main {
 .image-footer {
     width: 48px;
     height: 48px;
-    padding-right: 0;
 }
