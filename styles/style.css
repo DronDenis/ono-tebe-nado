@@ -152,6 +152,7 @@ main {
 
 .title-description {
     margin: 0;
+    padding: 12px 0 12px 29.31%;
     justify-self: center;
     font-family: Raleway, sans-serif;
     font-weight: normal;
@@ -159,7 +160,6 @@ main {
     font-size: 22px;
     line-height: 28px;
     letter-spacing: 0;
-    padding-left: 29.31%;
     word-spacing: 18px;
 }
 
