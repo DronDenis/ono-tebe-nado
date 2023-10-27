@@ -21,13 +21,16 @@ body h1 h2 h3 h4 h5 h6 p {
     letter-spacing: 0;
     font-family: Raleway, sans-serif;
     font-weight: normal;
-    font-display: swap;
     display: flex;
     padding: 43px 0 43px 0;
     flex-flow: row;
     gap: 13px;
     list-style-type: circle;
     list-style-position: inside;
+}
+
+.no-circle {
+    list-style-type: none;
 }
 
 .nav-list-main {
@@ -39,19 +42,22 @@ body h1 h2 h3 h4 h5 h6 p {
     border-bottom: solid 1px currentColor;
 }
 
+.no-underline {
+    text-decoration: none;
+}
 
 .logo-link {
     justify-self: center;
-    width: 148px;
+    width: auto;
     height: auto;
     margin: 0;
     padding: 0;
 }
 
 .logo-header {
-    margin: 0 10.14% 0 0;
+    margin: 0;
     padding: 0;
-    width: 95%;
+    width: 140px;
     height: auto;
     justify-self: center;
 }
@@ -68,7 +74,6 @@ body h1 h2 h3 h4 h5 h6 p {
 .address-font {
     font-family: Raleway,sans-serif;
     font-weight: normal;
-    font-display: swap;
     font-size: 18px;
     line-height: 24.3px;
     letter-spacing: 0;
@@ -100,48 +105,36 @@ main {
     margin: 0;
     font-family: Raleway, sans-serif;
     font-weight: bold;
-    font-display: swap;
     font-size: 100px;
     text-transform: uppercase;
     padding: 165px 50px 130px 50px;
     display: flex;
     flex-flow: column;
+    gap: 20px;
 }
 
 .left-position {
-    margin: 0;
-    padding: 0;
     text-align: left;
     line-height: 115%;
 }
 
 .small-letter-spacing {
-    margin: 0;
-    padding: 0;
     letter-spacing: 30px;
 }
 
 .letter {
-    margin: 0;
-    padding: 0;
     letter-spacing: 60px;
 }
 
 .center-position {
     text-align: center;
-    margin: 0;
-    padding: 10px 0 10px 0;
 }
 
 .right-position {
     text-align: right;
-    margin: 0;
-    padding: 0;
 }
 
 .some-space-after {
-    margin: 0;
-    padding: 0;
     letter-spacing: 10px;
 }
 
@@ -161,7 +154,6 @@ main {
     justify-self: center;
     font-family: Raleway, sans-serif;
     font-weight: normal;
-    font-display: swap;
     text-transform: uppercase;
     font-size: 22px;
     line-height: 28px;
@@ -174,7 +166,6 @@ main {
     margin: 0 3.47% 50px 0;
     font-family: Raleway, sans-serif;
     font-weight: normal;
-    font-display: swap;
     text-transform: uppercase;
     font-size: 22px;
     letter-spacing: 0;
@@ -195,7 +186,6 @@ main {
     padding: 0 0 27px 40px;
     font-family: Raleway, sans-serif;
     font-weight: bold;
-    font-display: swap;
     font-size: 40px;
     letter-spacing: 0%;
     text-transform: uppercase;
@@ -206,9 +196,11 @@ main {
     display: flex;
     justify-content: space-between;
     gap: 25px;
+    flex-wrap: wrap;
 }
 
 .lot-decoration {
+    position: relative;
     display: flex;
     flex-flow: column;
     justify-content: space-between;
@@ -216,13 +208,12 @@ main {
     min-height: 450px;
     margin: 0;
     padding: 50px 40px 50px 40px;
-
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .lot-film {
     background-image: url(../images/card-lot-01.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
 }
 
 .lot-card-title {
@@ -231,7 +222,6 @@ main {
     color: #fff;
     font-family: Raleway, sans-serif;
     font-weight: bold;
-    font-display: swap;
     font-size: 22px;
     letter-spacing: 0%;
     line-height: 120%;
@@ -244,7 +234,6 @@ main {
     padding: 0;
     font-family: Raleway, sans-serif;
     font-weight: normal;
-    font-display: swap;
     font-size: 20px;
     letter-spacing: 0%;
     line-height: 120%;
@@ -253,14 +242,10 @@ main {
 
 .lot-book {
     background-image: url(../images/card-lot-02.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
 }
 
 .lot-picture {
     background-image: url(../images/card-lot-03.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
 }
 
 .see-more {
@@ -268,7 +253,6 @@ main {
     padding: 30px 0 0 0;
     font-family: Raleway, sans-serif;
     font-weight: normal;
-    font-display: swap;
     font-size: 20px;
     letter-spacing: 0%;
     text-decoration: none;
@@ -318,7 +302,6 @@ main {
     padding: 0 0 100px 0;
     font-family: Raleway, sans-serif;
     font-weight: bold;
-    font-display: swap;
     font-size: 40px;
     letter-spacing: 0%;
     text-transform: uppercase;
@@ -330,7 +313,6 @@ main {
     padding: 0 0 1px 0;
     font-family: Raleway, sans-serif;
     font-weight: normal;
-    font-display: swap;
     font-size: 20px;
     letter-spacing: 0%;
     line-height: 120%;
@@ -356,7 +338,6 @@ main {
 .page-navigation-footer {
     font-family: Raleway, sans-serif;
     font-weight: normal;
-    font-display: swap;
     font-size: 18px;
     letter-spacing: 0%;
     text-align: center;
@@ -366,13 +347,9 @@ main {
     list-style: none;
 }
 
-.no-underline {
+.no-dot {
     text-decoration: none;
-}
-
-.footer-dot {
-    text-decoration: none;
-    border-bottom: solid 1px currentColor;
+    list-style-type: none;
 }
 
 .main-footer {
