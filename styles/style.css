@@ -106,6 +106,7 @@ main {
     font-family: Raleway, sans-serif;
     font-weight: bold;
     font-size: 100px;
+    line-height: 1;
     text-transform: uppercase;
     padding: 165px 50px 130px 50px;
     display: flex;
