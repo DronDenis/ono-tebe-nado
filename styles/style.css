@@ -24,7 +24,7 @@ body h1 h2 h3 h4 h5 h6 p {
     display: flex;
     padding: 43px 0 43px 0;
     flex-flow: row;
-    gap: 13px;
+    gap: 9px;
     list-style-type: circle;
     list-style-position: inside;
 }
@@ -67,7 +67,6 @@ body h1 h2 h3 h4 h5 h6 p {
     margin: 0;
     padding: 0;
     padding-top: 5px;
-    padding-bottom: 7px;
     max-width: 240px;
 }
 
@@ -108,7 +107,7 @@ main {
     font-size: 100px;
     line-height: 1;
     text-transform: uppercase;
-    padding: 165px 50px 130px 50px;
+    padding: 160px 50px 135px 50px;
     display: flex;
     flex-flow: column;
     gap: 20px;
@@ -120,7 +119,7 @@ main {
 }
 
 .small-letter-spacing {
-    letter-spacing: 30px;
+    letter-spacing: 32px;
 }
 
 .letter {
@@ -136,7 +135,7 @@ main {
 }
 
 .some-space-after {
-    letter-spacing: 10px;
+    letter-spacing: 7px;
 }
 
 .no-space-after {
@@ -195,7 +194,7 @@ main {
 
 .lots-order {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     gap: 25px;
     flex-wrap: wrap;
 }
@@ -264,7 +263,7 @@ main {
 .about {
     display: grid;
     grid-template-columns: 1fr 2fr;
-    gap: 25px;
+    gap: 13px;
     justify-content: left;
     padding: 180px 50px 180px 50px;
     margin: 0;
@@ -357,6 +356,10 @@ main {
     margin: 0;
     padding: 0;
     text-decoration: none;
+}
+
+.footer__contacts-position {
+    padding: 0;
 }
 
 .list-footer {
