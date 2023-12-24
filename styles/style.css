@@ -199,13 +199,24 @@ main {
     flex-wrap: wrap;
 }
 
+.conteiner__grow {
+    width: 430px;
+    min-height: 450px;
+    flex-grow: 1;
+}
+
+.lots__link {
+    height: 100%;
+    display: block;
+    text-decoration: none;
+}
+
 .lot-decoration {
     position: relative;
     display: flex;
     flex-flow: column;
     justify-content: space-between;
-    width: 430px;
-    min-height: 450px;
+    height: 100%;
     margin: 0;
     padding: 50px 40px 50px 40px;
     background-repeat: no-repeat;
